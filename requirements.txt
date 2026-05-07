@@ -1,0 +1,53 @@
+# ============================================================
+#  AANYA SHARMA — Requirements
+#  pip install -r requirements.txt
+# ============================================================
+
+# --- Core ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiohttp>=3.9.0
+asyncio-throttle>=1.0.2
+
+# --- LLM APIs ---
+groq>=0.11.0
+google-generativeai>=0.7.0
+huggingface-hub>=0.24.0
+openai>=1.40.0          # Groq uses OpenAI-compatible API
+
+# --- Trend Research ---
+pytrends>=4.9.2         # Google Trends
+praw>=7.7.1             # Reddit API
+google-api-python-client>=2.140.0
+google-auth>=2.29.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# --- Media Processing ---
+Pillow>=10.4.0
+moviepy>=1.0.3
+imageio>=2.34.0
+imageio-ffmpeg>=0.5.1
+opencv-python-headless>=4.10.0
+
+# --- Scheduling ---
+APScheduler>=3.10.4
+pytz>=2024.1
+
+# --- Storage ---
+google-api-python-client>=2.140.0    # Google Drive
+cloudinary>=1.40.0                   # Cloudinary free tier backup
+
+# --- Data & Analytics ---
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+
+# --- Utilities ---
+tenacity>=8.4.0         # Retry logic for API calls
+rich>=13.7.0            # Beautiful terminal output
+loguru>=0.7.2           # Structured logging
+pydantic>=2.8.0         # Data validation
+
+# --- Optional: local image generation check ---
+websocket-client>=1.8.0  # ComfyUI WebSocket API

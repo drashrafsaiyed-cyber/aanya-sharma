@@ -1,0 +1,16 @@
+.env
+*.pickle
+gdrive_credentials.json
+client_secret.json
+__pycache__/
+*.pyc
+output/
+logs/
+data/analytics/
+data/trends/
+data/content_queue/
+character/lora_weights/
+character/reference_images/
+*.egg-info/
+.DS_Store
+python_installer.exe
